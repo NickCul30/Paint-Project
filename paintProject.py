@@ -168,6 +168,8 @@ screen.blit(stamp,(92,295))
 screen.blit(save,(53,30))
 screen.blit(folder,(126,30))
 
+screen.setTitle("OUR Paint")
+
 running = True
 while running:
     for e in event.get():
